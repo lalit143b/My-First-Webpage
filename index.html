@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Hospital</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="images/5147147.png">
+    </head>
+    <body>
+        <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/5147147-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <br><br><ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about_us.html">ABOUT</a></li>
+                    
+                    <li><a href="contact_us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Keeping You Well</h1>
+            <p>
+                Our mission is to provide Hope, Care and Cure. To provide compassionate, accessible, high quality, cost effective healthcare to one and all.
+                <br>To serve with a patient's first motto and to work towards a patient- centered care.
+            </p>
+            <a href="https://goo.gl/maps/NqUFKpdi4kkrp7Ps6" target="_blank" class="hero-btn">visit us to know more</a>
+        </div>
+        </section>
+        <!-- ------------Infrastructure----------- -->
+        <section class="infrastructure">
+            <h1>Facilites We Provide</h1>
+            <p>We provide advanced machines, specialist doctors, nurses, and other paramedical professionals and developed pharmaceutical industries.</p>
+            <div class="row">
+                <div class="infra-col">
+                    <img src="images/large-3 (1).png">
+                    <div class="layer">
+                        <h3>Advance Machines</h3>
+                    </div>
+                </div>
+                <div class="infra-col">
+                    <img src="images/x1080.png">
+                    <div class="layer">
+                        <h3>Proffesinal Surgeons</h3>
+                    </div>
+                </div>
+                <div class="infra-col">
+                    <img src="images/Drupal-web_10171703-122.png">
+                    <div class="layer">
+                        <h3>Tansportation</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------Testimonials-------------->
+        <section class="testimonials">
+            <h1>What Our Patients Say</h1>
+            <p>These are some revies of our Patients</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="images/satish.PNG">
+                    <div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <h3>Satish Sonawane</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="images/pranav.PNG">
+                    <div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                        <h3>Pranav Patil</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="images/harshal.jpeg">
+                    <div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p><br>
+                        <h3>Harshal Rajput</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------Call To Action--------- -->
+        <section class="cta">
+            <h1>Enroll for surgeries</h1>
+            <a href="" class="hero-btn">Contact Us</a>
+        </section>
+        <!-- ----------Footer----------- -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by <b>Lalit Sonar</b></p>
+        </section>
+        <!------------Javascript for toggle menu------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
